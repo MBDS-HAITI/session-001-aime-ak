@@ -55,6 +55,8 @@ function MainContent() {
 
 // Footer
 function Footer() {
+  
+  const annee = new Date().getFullYear();
   return (
     <footer
       style={{
@@ -67,7 +69,7 @@ function Footer() {
         width: '43%',
       }}
     >
-      Tous droits réservés -  AIME Louis
+     {annee}- Tous droits réservés -  AIME Louis
     </footer>
   );
 }
