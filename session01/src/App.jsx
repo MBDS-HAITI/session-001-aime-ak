@@ -35,9 +35,20 @@ function Header() {
 
 // Le deuxième composant
 function MainContent() {
+   const now=new Date();
+
+   const  jour= now.getDate();
+   const mois=now.getMonth()+1;
+   const annee=now.getFullYear();
+
+   const heure = now.getHours();
+   const minute = now.getMinutes();
+   const seconde=now.getSeconds()
+
+
   return (
     <main style={{ padding: '20px' }}>
-      <h4>Ici, nous afficherons des informations intéressantes :</h4>
+      <h4>Bonjour, on est le {jour}/{mois}/{annee} et  il est {heure}:{minute}:{seconde} </h4>
     </main>
   );
 }
@@ -56,7 +67,7 @@ function Footer() {
         width: '43%',
       }}
     >
-      Tous droits réservés - AIME Louis
+      Tous droits réservés -  AIME Louis
     </footer>
   );
 }
