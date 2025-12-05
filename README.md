@@ -49,7 +49,7 @@ npm run dev
 ## TD04 : Gestion d'événements 
 1. Ajouter un menu en haut à gauche de votre application
 2. Considérer les éléments suivants (Notes, Etudiants, Matières, A propos) 
-3. Afficher une alerte contenu le text de l’élément cliqué
+scm-history-item:c%3A%5CUsers%5Chugue%5CProjet1%5Csession-001-aime-ak?%7B%22repositoryId%22%3A%22scm0%22%2C%22historyItemId%22%3A%226bec59020ee66d554c0dfba864c0e06d12b0aa80%22%2C%22historyItemParentId%22%3A%22c4176aaa071ef1791e1cff55a5661fed502adb44%22%2C%22historyItemDisplayId%22%3A%226bec590%22%7D3. Afficher une alerte contenu le text de l’élément cliqué
 4. Commit avec le message “Add menu”
 5. Push
 
